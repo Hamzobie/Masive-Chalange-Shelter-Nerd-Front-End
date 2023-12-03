@@ -1,0 +1,147 @@
+#navbarEventt{
+    color: #CE5A67 !important;
+     font-size: 16;
+       font-weight: '800';
+        word-wrap: 'break-word';
+}
+.ukuran{
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px #CE5A67 solid;
+}
+.Urutan{
+    padding-top: 5px;
+   padding-left: 35%;
+   padding-right: 20px;
+}
+.icon{
+    background-color: #CE5A67;
+    border: 1px #CE5A67 solid;
+}
+.content{ 
+background: #F4BF96;
+color: black;
+border: 1px solid #F4BF96;
+border-radius: 2px;
+}
+.isiContent{
+    min-width: auto;
+    min-height: auto;
+    max-width:auto;
+    max-height: auto;
+    background: #F4BF96;
+    border-radius: 2px;
+    overflow: hidden;
+    border:1px solid #F4BF96;
+}
+.isi{
+    padding-top: 12%;
+    margin-bottom: 13%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tombolBuat { 
+    width: 212px;
+    height: 71px;
+    background: #CE5A67;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.tombolBuat Button{
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.isi h4{
+    font-weight: 600;
+}
+.isi p{
+    font-size: 20px;
+}
+.tombolBuat{
+    margin-bottom: 60px;
+}
+.garisAtas{
+    border-top: 1px black solid;
+    width: 100%;
+    height: 0px;
+}
+.footer{
+    width: auto;
+    height: auto;
+    padding-left: 56px;
+    padding-right: 56px;
+    background: #FCF5ED ;
+    margin-bottom: auto;
+
+}
+.isiAllevent{
+    min-width: auto;
+    min-height: auto;
+    max-width:auto;
+    max-height: auto;
+    background: #F4BF96;
+    border-radius: 2px;
+    overflow: hidden;
+    border:1px solid #F4BF96;
+}
+.nav-tabs{
+    margin-left: 5rem;
+    margin-right: 5rem; 
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link.active{
+    color: black !important; 
+    font-weight: 600 !important;
+  background: #F4BF96 !important;
+border: 1px solid #F4BF96 !important;
+border-radius: 2px !important;
+}
+.tab-pane{
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    min-width: auto;
+    min-height: auto;
+    max-width:auto;
+    max-height: auto;
+    background: #F4BF96;
+    border-radius: 2px;
+    overflow: hidden;
+    border:1px solid #F4BF96;
+}
+.Tampil{
+    margin-left: 1rem;
+}
+/* dashboard */
+.progress-bar{
+    background-color: #C03645 !important;
+}
+.progress{
+    height: 25px !important;
+    background: #F4BF96 !important;
+}
+.RatingNerd{
+    display: inline-flex;
+    width: 57px;
+    height: 24px; 
+    padding-left: 16px; 
+    padding-right: 16px;
+    background: #F4BF96; 
+    border-radius: 10px;
+    border: 1px #CE5A67 solid;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    font-size: 17px !important; 
+    font-weight:500 !important ;
+    word-wrap: break-word;
+}

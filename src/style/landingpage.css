@@ -1,0 +1,407 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container .content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#background-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 614px;
+    background-size: cover;
+    transition: background-image 0.2s ease-in-out;
+    background-image: url("/img/beranda1.jpg"); /* Ganti dengan path yang sesuai */
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 100px 0 100px;
+  }
+  
+  #logo img {
+    width: 50px; /* Sesuaikan dengan ukuran logo Anda */
+  }
+  
+  #title h2 {
+    margin: 0 0 0 10px;
+    color: #fff; /* Warna teks */
+
+  }
+
+  #button-container {
+    margin-left: auto;
+  }
+  #button-container #myButton{
+    padding: 5px 10px 5px 10px;
+  }
+  
+  #content-wrapper {
+    text-align: center;
+    color: #fff; /* Warna teks */
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  #content-wrapper h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  #content-wrapper h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .custButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #C03645; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Efek hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.616);
+  }
+
+  .custButton:hover {
+    background-color: #870312; /* Warna latar belakang tombol saat hover */
+  }
+
+  #content-wrapper #myButton {
+    margin-top: 90px;
+    font-size: 20px;
+    padding: 20px 25px;
+  }
+
+.main-content {
+    text-align: center;
+    margin-top: 2em;
+    max-width: 1100px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-content .text-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.main-content .text-content h2 {
+    color: #C03645;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-content button{
+    padding: 15px 10px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #C03645;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #b80000;
+}
+
+.second-content {
+    text-align: center;
+    margin-top: 2em;
+    max-width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-content .text-content {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second-content .text-content h2 {
+    color: #C03645;
+    font-size: 25px;
+}
+
+.image-kategori {
+    display: flex;
+    justify-content:center;
+  }
+
+  .image {
+    width: 100%; /* 2:1 aspect ratio */
+    margin-bottom: 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .image:hover {
+    filter:brightness(30%); /* Atur tingkat kecerahan saat dihover */
+  }
+
+  .third-content {
+    text-align: center;
+    margin-top: 5em;
+    max-width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 100px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-content .text-content {
+    flex: 1;
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 20px;
+    max-width: 70%;
+}
+
+.spanBtn{
+    display: inline-block; /* Agar kotak mengikuti lebar teks */
+    padding: 1px 1px; /* Atur padding kotak */
+    color: white; /* Warna teks */
+    margin: 5px 3px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Efek transisi hover */
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1px;
+  }
+  
+  a .spanBtn {
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  a:hover .spanBtn {
+    filter: brightness(90%);
+  }
+
+.third-content .text-content h2 {
+    color: #C03645;
+    font-size: 25px;
+    text-align: center;
+}
+
+.image-mockup{
+    margin-right: 30px;
+    max-width: 50%;
+}
+
+.third-content img {
+    height: auto;
+    padding: 10px;
+    max-width: 45%;
+
+}
+
+.fourth-content {
+    text-align: center;
+    margin-top: 2em;
+    max-width: 1100px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth-content .text-content {
+    flex: 1;
+    text-align: right;
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.fourth-content .text-content h2 {
+    color: #C03645;
+    font-size: 25px;
+
+    text-align: right;
+}
+
+.fourth-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fourth-content .text-content button{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+
+
+footer {
+    background: #C03645;
+    color: white;
+    padding: 50px 20px 10px 20px;
+    position: relative;
+    bottom: 0px;
+}
+
+footer p{
+  padding-left: 50px;
+}
+
+.footer1 {
+  display: flex;
+  align-items: center;    
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.logo-container {
+  align-items: center;
+
+}
+
+.logofooter img {
+  width: 50px; /* Sesuaikan ukuran logo */
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.logofooter h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  margin-right: -19px;
+}
+
+input{
+  width: 300px;
+  height: 25px;
+}
+
+.input-text {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #CE5A67; /* Sesuaikan warna tombol */
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 1em;
+  height: 48px;
+}
+
+.horizontal-line {
+  border: 1px solid #ffffff; /* Warna dan lebar garis */
+  margin: 20px 50px; /* Jarak di atas dan di bawah garis */
+}
+
+.footer2 {
+  display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.infofooter {
+  align-items: center;
+
+}
+
+.instalfooter {
+  align-items: center;
+  padding-right: 20px;
+  margin-right: 29px;
+  font-weight: bold;
+}
+
+.instalfooter p{
+  margin-left: -45px;
+}
+
+.theImage{
+  position: relative;
+  width: 30%;
+  height: auto;
+  margin-left: 10px;
+}
+.showText{
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  opacity: 0;
+  top: 40%;
+  left: 40%;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s ease-in; 
+  transition: visibility 0s, opacity 0.5s ease-out
+}
+.theImage:hover .showText{
+  visibility: visible;
+  opacity: 0.7; 
+}

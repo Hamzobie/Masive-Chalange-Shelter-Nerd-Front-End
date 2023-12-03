@@ -1,0 +1,123 @@
+#custom-switch:checked{
+    background-color: #CE5A67;
+    border-color: red;
+}
+#checkbox-id:checked{
+    background-color: #CE5A67;
+}
+#checkbox-id{
+    border-color: #CE5A67;
+}
+#info{
+    padding: 10;
+    width: 46%;
+    margin: 5px 0px 5px 0px;
+    font-size: 14px;
+    border: solid #979192;
+    border-radius: 10px;
+    border-width: 1px;
+}
+#info a{
+    color: #CE5A67;
+    font-weight: bold;
+}
+
+#addTicket{
+    background-image: url('./assets/ticket.svg');
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 130px;  
+}
+
+#ticketBtn{ 
+    background: none;
+    border: none;
+    margin: 0;
+}
+.nav-form{
+    width: 78%;
+    margin-left: 11%;
+    margin-top: 2%;
+    padding-bottom: 20px;
+}
+.nav-item:hover{
+    cursor: pointer;
+}
+.nav-item{
+    color: #979192;
+    border-bottom: 2px solid #979192;
+}
+.choosen{
+    color: #CE5A67;
+    border-bottom: 4px solid #CE5A67;
+    font-weight: bold;
+}
+.hide-content{
+    display: none;
+}
+.show-content{
+    display: inline;
+    margin-top: 2%;
+}
+
+.descForm{
+    width: 78%;
+    margin-left: 11%;
+}
+
+.ql-toolbar{
+    background-color: #F4BF96;
+    color: white;
+}
+.ql-snow{
+    box-sizing: unset !important;
+}
+.ql-container{
+    height: 200px !important;
+}
+
+.form-check-input:disabled ~ .form-check-label, .form-check-input[disabled] ~ .form-check-label{
+    opacity: 1 !important;
+}
+.form-check-input:disabled{
+    opacity: 1 !important;
+}
+.nav-underline .nav-link.active{
+    color: #CE5A67 !important;
+    background: none !important;
+    border: none !important;
+}
+.nav-underline .nav-link{
+    color: #979192 !important;
+}
+.modal-form{
+    background: none !important;
+    border: none !important;
+    margin: 0 !important;
+}
+.btnCard:hover{
+    cursor: pointer;
+}
+.form-tiket{
+    border: none !important;
+    border-radius: 0px !important;
+    border-bottom: 1px solid !important;
+}
+
+.btn-primary{
+    background-color: #CE5A67 !important;
+    border-color: #CE5A67 !important;
+}
+.btnlght{
+    background-color: white !important;
+}
+.footer{
+    width: auto;
+    height: auto;
+    padding-left: 56px;
+    padding-right: 56px;
+    background: #FCF5ED ;
+    margin-bottom: auto;
+    border-top: 1px solid black;
+
+}
