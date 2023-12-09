@@ -18,12 +18,7 @@
     background-color: #CE5A67;
     border: 1px #CE5A67 solid;
 }
-.content{ 
-background: #F4BF96;
-color: black;
-border: 1px solid #F4BF96;
-border-radius: 2px;
-}
+
 .isiContent{
     min-width: auto;
     min-height: auto;
@@ -105,7 +100,7 @@ border-radius: 2px;
 border: 1px solid #F4BF96 !important;
 border-radius: 2px !important;
 }
-.tab-pane{
+.thisTab{
     margin-left: 5rem;
     margin-right: 5rem; 
     min-width: auto;

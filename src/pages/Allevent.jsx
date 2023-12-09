@@ -1,7 +1,4 @@
-
 import Card from "react-bootstrap/Card";
-
-
 import cosplay from "../assets/img/icon/versi1.jpg";
 import calender from "../assets/img/icon/calender.svg";
 import time from "../assets/img/icon/time.svg";

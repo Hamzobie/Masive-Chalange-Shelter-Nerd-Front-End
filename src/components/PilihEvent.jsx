@@ -15,13 +15,13 @@ function ControlledTabsExample() {
       activeKey={key}
       onSelect={(k) => setKey(k)}
       className="mt-4" style={{color:'black',}} >
-      <Tab  eventKey="Allevent" title="ALL EVENT " > 
+      <Tab className='thisTab' eventKey="Allevent" title="ALL EVENT " > 
         <Tambahallevent/>
       </Tab>
-      <Tab eventKey="Draftevent" title="DRAFT EVENT">
+      <Tab className='thisTab' eventKey="Draftevent" title="DRAFT EVENT">
         <Draftevent/>
       </Tab>
-      <Tab eventKey="Finishevent" title="EVENT FINISH">
+      <Tab className='thisTab' eventKey="Finishevent" title="EVENT FINISH">
         <Finishevent/>
       </Tab>
     </Tabs>

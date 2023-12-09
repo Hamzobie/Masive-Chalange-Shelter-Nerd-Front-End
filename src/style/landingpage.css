@@ -291,6 +291,7 @@ footer {
     padding: 50px 20px 10px 20px;
     position: relative;
     bottom: 0px;
+    margin-top: 20px;
 }
 
 footer p{
@@ -315,15 +316,16 @@ footer p{
   margin-right: 10px;
   margin-left: 10px;
 }
-
+.logofooter{
+  display: flex;
+  flex-direction: row;
+}
 
 .logofooter h1 {
-  margin: 0;
   font-size: 1.5em;
   font-weight: 500;
   color: #FFFFFF;
-  margin-top: -40px;
-  margin-left: 70px;
+  margin-top: 7%;
 }
 
 .form-container {
