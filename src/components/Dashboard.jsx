@@ -33,7 +33,6 @@ const FirstCard = ({ data }) => {
           style={{
             color: "#CE5A67",
             fontSize: 17,
-            fontFamily: "Poppins",
             fontWeight: "500",
             wordWrap: "break-word",
             backgroundColor: "white",
@@ -54,7 +53,6 @@ const FirstCard = ({ data }) => {
         <Card.Header style={{
           color: "#CE5A67",
           fontSize: 17,
-          fontFamily: "Poppins",
           fontWeight: "500",
           wordWrap: "break-word",
           backgroundColor: "white",
@@ -72,7 +70,6 @@ const FirstCard = ({ data }) => {
         <Card.Header style={{
           color: "#CE5A67",
           fontSize: 17,
-          fontFamily: "Poppins",
           fontWeight: "500",
           wordWrap: "break-word",
           backgroundColor: "white",
@@ -108,7 +105,6 @@ const FirstCard = ({ data }) => {
         <Card.Header style={{
           color: "#CE5A67",
           fontSize: 17,
-          fontFamily: "Poppins",
           fontWeight: "500",
           wordWrap: "break-word",
           backgroundColor: "white",

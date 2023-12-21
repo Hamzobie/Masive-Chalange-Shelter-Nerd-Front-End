@@ -14,9 +14,7 @@ const Draftevent = () => {
     console.log("Edit button clicked!");
   };
   return (
-
       <div>
-        
         <div>
           <div className="mt-5">
             <div className="row">
@@ -26,7 +24,7 @@ const Draftevent = () => {
                   style={{
                     marginLeft:"1rem",
                     width: "20rem",
-                    border: "5px white solid",
+                    border: "5px black solid",
                     borderRadius: "20px",
                     backgroundColor: "#F4BF96",
                     marginBottom: "1rem",

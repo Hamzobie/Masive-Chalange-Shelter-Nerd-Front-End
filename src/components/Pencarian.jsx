@@ -17,7 +17,7 @@ const SearchBar = () => {
         </button>
       <div className="Urutan">Urutan:</div>
       <div className='ukuran'>
-     <Form.Select aria-label="Default select example" style={{paddingRight:130,}}>
+     <Form.Select aria-label="Default select example" style={{paddingRight:130, border:'none', height: '100%'}}>
      <option>Waktu Mulai (Terdekat)</option>
         <option>Waktu Mulai (Terjauh)</option>
         <option>Nama Event ( A-Z )</option>

@@ -91,9 +91,7 @@ const LandingPage = () => {
         <div id="content-wrapper">
           <h1>Tempat Setiap Acara Menjadi Pengalaman</h1>
           <h2>Luar Biasa!</h2>
-          <a href="#"
-            ><button id="myButton">DAFTARKAN ACARAMU SEKARANG</button></a
-          >
+          <Link to="/Register"><button id="myButton">DAFTARKAN ACARAMU SEKARANG</button></Link>
         </div>
       </div>
     </header>
@@ -109,7 +107,7 @@ const LandingPage = () => {
             friendly, website kami menyediakan solusi terbaik untuk
             mengorganisir event Anda
           </p>
-          <a href="#"><button className='custButton'>DAFTAR SEKARANG!</button></a>
+          <Link to="/Register"><button className='custButton'>DAFTAR SEKARANG!</button></Link>
         </div>
       </div>
       <div className="second-content">

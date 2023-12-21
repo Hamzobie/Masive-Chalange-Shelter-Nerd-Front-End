@@ -65,6 +65,7 @@ const MakeTicket = () => {
               <Form.Control
                 className='form-tiket'
                 type="nama"
+                name='nama'
                 autoFocus
               />  
             </Form.Group>
@@ -73,6 +74,7 @@ const MakeTicket = () => {
               <Form.Control
                 className='form-tiket'
                 type="jumlah"
+                name='jumlah_tiket'
               />  
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -80,11 +82,12 @@ const MakeTicket = () => {
               <Form.Control 
                 className='form-tiket'
                 type="Harga"
+                name='harga'
               />  
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
               <Form.Label><b>Deskripsi</b></Form.Label>
-              <Form.Control className='form-tiket' as="textarea" rows={3} />
+              <Form.Control className='form-tiket' as="textarea" rows={3} name='deskripsi'/>
             </Form.Group>
           </Form>
           </Tab>
@@ -94,10 +97,10 @@ const MakeTicket = () => {
                 <Form.Label><b>Tanggal Mulai</b></Form.Label>
                 <Row>
                   <Col md={8}>
-                    <Form.Control size='lg' type="date" name="dob"/>
+                    <Form.Control size='lg' type="date" name="tanggal_mulai"/>
                   </Col>
                   <Col>
-                    <Form.Control size='lg' type='time'/>
+                    <Form.Control size='lg' type='time' name="waktu_mulai"/>
                   </Col>
                 </Row>
               </Form.Group>
@@ -105,10 +108,10 @@ const MakeTicket = () => {
                 <Form.Label><b>Tanggal Berakhir</b></Form.Label>
                 <Row>
                   <Col md={8}>
-                    <Form.Control size='lg' type="date" name="dob"/>
+                    <Form.Control size='lg' type="date" name="tanggal_berakhir"/>
                   </Col>
                   <Col>
-                    <Form.Control size='lg' type='time'/>
+                    <Form.Control size='lg' type='time' name="waktu_berakhir"/>
                   </Col>
                 </Row>
               </Form.Group>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardForm from '../components/CardForm';
@@ -8,6 +8,10 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 function FormEvent() {
+  const [cardData, setCardData]= useState(new Map());
+  const updateCard = (data)=>{
+    setCardData(data);
+  };
   return (
     <>
       <Navbar />
@@ -16,7 +20,7 @@ function FormEvent() {
           <a>Event -</a> Buat Event
         </div>
       </div>
-      <CardForm />
+      <CardForm dataMap={updateCard} />
       <TabBar />
       <hr style={{color: '#CE5A67', margin: "20px 64px 20px 64px"}}></hr>
       <FormConfirm />
